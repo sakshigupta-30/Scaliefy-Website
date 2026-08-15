@@ -114,9 +114,8 @@ h3, .h3 {
 }
 
 .lede {
-  font-size: 1.05rem;
+  font-style:italic;
   color: var(--color-muted);
-  max-width: 42ch;
 }
 
 em, .accent-italic {
@@ -341,28 +340,7 @@ em, .accent-italic {
   overflow: hidden;
   aspect-ratio: 5/4;
   position: relative;
-  background: #eae6dc;
 }
-.hero-mock .laptop-frame {
-  position: absolute; inset: 6%;
-  background: #0f0f0f;
-  border-radius: 14px;
-  padding: 3%;
-}
-.hero-mock .laptop-screen {
-  width: 100%; height: 100%;
-  background: linear-gradient(160deg, #f2ece1, #e2d7c4);
-  border-radius: 4px;
-  display: flex; flex-direction: column;
-  padding: 6%;
-  color: #241d12;
-}
-.hero-mock .screen-top {
-  display: flex; justify-content: space-between; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.7;
-}
-.hero-mock .screen-title { font-family: var(--font-serif); font-style: italic; font-size: clamp(1rem, 2.5vw, 1.6rem); margin-top: auto; line-height: 1.2; }
-.hero-mock .screen-vessels { display: flex; align-items: flex-end; gap: 6%; margin-top: var(--space-2); }
-.hero-mock .vessel { background: #b9a888; border-radius: 40% 40% 30% 30%; }
 
 @media (max-width: 860px) {
   .hero .container { grid-template-columns: 1fr; }
@@ -370,7 +348,7 @@ em, .accent-italic {
 }
 
 /* Brand strip */
-.brand-strip { padding: var(--space-5) 0; }
+.brand-strip { padding: var(--space-5) 0; background: #e9e7e3 }
 .brand-strip .strip-label {
   text-align: center;
   font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
